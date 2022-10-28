@@ -1,0 +1,39 @@
+*
+{
+padding:0;
+margin:0;               
+}
+body{
+      background-image:url(file:///C:/Users/Acer/Downloads/rice-gd4a4af576_1920.jpg) ;
+      background-repeat: no-repeat;     
+      background-attachment: fixed;
+  background-position: center;
+}
+.Menu-bar
+{
+    background: rgb(236, 77, 77)  ;
+      text-align: center;
+}
+.Menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:rgb(13, 3, 3) ;
+}
+
+.Menu-bar ul li
+{
+width: 200px;
+margin: 10px;
+padding: 15px;
+}
+.Menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .Menu-bar ul li:hover
+{
+background:rgb(132, 72, 72);
+border-radius:3px
+}
